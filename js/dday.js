@@ -15,7 +15,6 @@ var toEsGraduation = esGraduation.getTime();
 var esGraduationTime = toEsGraduation - toNow;
 var esGraduationDday = Math.round(esGraduationTime/(1000 * 60 * 60 * 24));
 
-document.querySelector("#accent").innerText = passedDay + "일";
 document.querySelector("#school-festival").innerText = schoolFestivalDday + "일";
 document.querySelector("#winter-vacation").innerText = passedDay + "일";
 document.querySelector("#es-graduation").innerText = esGraduationDday + "일";
