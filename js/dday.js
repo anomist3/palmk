@@ -13,7 +13,7 @@ var schoolFestivalDday = Math.round(schoolFestivalTime/(1000 * 60 * 60 * 24));
 var esGraduation = new Date("2021-2-19");
 var toEsGraduation = esGraduation.getTime();
 var esGraduationTime = toEsGraduation - toNow;
-var esGraduationDday = Math.round(esGraduationTime/(1000 * 60 * 60 * 24));
+var esGraduationDday = Math.floor(esGraduationTime/(1000 * 60 * 60 * 24));
 
 document.querySelector("#school-festival").innerText = schoolFestivalDday + "일";
 document.querySelector("#winter-vacation").innerText = passedDay + "일";
