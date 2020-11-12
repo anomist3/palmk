@@ -25,6 +25,11 @@ var toTestDate2 = testDate22.getTime();
 var testDateTime2 = toTestDate2 - toNow;
 var testDate2 = Math.round(testDateTime2 / (1000 * 60 * 60 * 24)); 
 
+var testDate33 = new Date("2021-1-1");
+var toTestDate3 = testDate33.getTime();
+var testDateTime3 = toTestDate3 - toNow;
+var testDate3 = Math.round(testDateTime3 / (1000 * 60 * 60 * 24)); 
+
 document.querySelector("#school-festival").innerText = schoolFestivalDday + "일";
 document.querySelector("#winter-vacation").innerText = passedDay + "일";
 document.querySelector("#es-graduation").innerText = esGraduationDday + "일";
