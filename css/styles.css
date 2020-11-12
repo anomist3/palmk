@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Black+Han+Sans|Jua");
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 350px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 2%;
+  box-shadow: 2px 2px 5px #333;
+}
+
+.gyori-characters {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.day1 {
+  padding-top: 5px;
+  text-align: center;
+}
+.day1 h3 {
+  font-size: 1.2em;
+  color: #666;
+}
+.accent {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Jua", sans-serif;
+  font-weight: bold;
+  font-size: 3.5em;
+  color: #222;
+}
+
+.accent span {
+  font-size: 0.6em;
+  font-style: italic;
+}
+
+.school-bar {
+  text-align: center;
+  width: 100%;
+  margin: 40px auto 0 auto;
+  padding-left: 15px;
+  height: 40px;
+  background: #747474;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 40px;
+}
+.day2 {
+  width: 350px;
+  margin: 10px auto 20px auto;
+}
+.day2 ul {
+  list-style: none;
+  border-bottom: 1px dashed #ccc;
+  height: 60px;
+}
+.day2 ul:last-child {
+  border-bottom: none;
+}
+.item-title {
+  float: left;
+  width: 200px;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 60px;
+}
+.item-date {
+  float: left;
+  margin-left: 30px;
+  font-size: 1.2em;
+  color: #222;
+  text-align: right;
+  line-height: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.item-title span {
+  color: blue;
+}
+
+.js-clock {
+  display: flex;
+  justify-content: space-evenly;
+  height: 30px;
+}
+
+.day1__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.form,
+.greeting {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.day2-item {
+  display: flex;
+}
