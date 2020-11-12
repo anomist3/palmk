@@ -20,8 +20,8 @@ var toTestDate = testDate.getTime();
 var testDateTime = toTestDate - toNow;
 var testDate = Math.round(testDateTime / (1000 * 60 * 60 * 24)); 
 
-var testDate = new Date("2020-12-25");
-var toTestDate2 = testDate2.getTime();
+var testDate22 = new Date("2020-12-25");
+var toTestDate2 = testDate22.getTime();
 var testDateTime2 = toTestDate2 - toNow;
 var testDate2 = Math.round(testDateTime2 / (1000 * 60 * 60 * 24)); 
 
